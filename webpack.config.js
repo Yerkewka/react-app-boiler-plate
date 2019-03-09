@@ -46,6 +46,7 @@ module.exports = {
   devServer: {
     writeToDisk: true
   },
+  devtool: 'cheap-module-eval-source-map',
   mode: process.env.NODE_ENV || 'development',
   plugins: [
     extractPlugin,
