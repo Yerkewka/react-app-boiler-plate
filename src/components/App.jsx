@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import tree from '../img/tree.jpg';
+import tree from '../assets/tree.jpg';
 
 class App extends Component {
   render() {
